@@ -23,6 +23,10 @@ func IsPrime(n int) bool {
 	}
 	return n > 1
 }
+
+func Multiply(a, b int) int {
+	return a * b
+}
 func main() {
 	fmt.Println("Hello, World!")
 }
